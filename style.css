@@ -1,0 +1,16 @@
+* {
+    background-color: indigo;
+}
+h1 {
+    color: yellow;
+    text-align: center;
+}
+.friend {
+    background-color: maroon;
+}
+.friend h3, p  {
+    text-decoration: uppercase;
+    color: white;
+    
+}
+
