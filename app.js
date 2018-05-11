@@ -1,7 +1,4 @@
 //Variables//
-var chorus = ('lines of code in the file, lines of code;  strikes one out, clears it all out, lines of code in the file');
-var chorusl = ('line of code in the file, line of code; strikes one out, clears it all out, line of code in the file');
-var num = 99,
     reverse = true,
     i;
 
@@ -24,9 +21,9 @@ for (let x = 0; x < friends.length; x ++) {
 
     for (let i = 99; i > 0; i--) { 
        
-        console.log(i, 'lines of code in the file,', i, 'lines of code;', friend, 'strikes one out, clears it all out,', --i, 'lines of code in the file')
+        console.log(i, 'lines of code in the file,', i, 'lines of code;', friend, 'strikes one out, clears it all out,', i -1, 'lines of code in the file')
         if (i < 0) {
-            console.log(i, 'line of code in the file,', i, 'line of code;', friend, 'strikes one out, clears it all out,', i, 'No lines of code in the file')
+            console.log(i, 'line of code in the file,', i, 'line of code;', friend, 'strikes one out, clears it all out,', i, 'lines of code in the file')
         }
         
         }       
